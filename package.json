@@ -23,7 +23,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_a95c542c26ce5de"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.2",
@@ -37,6 +38,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "chromatic": "^9.0.0",
     "msw": "^1.2.1",
     "msw-storybook-addon": "^1.10.0",
     "prop-types": "^15.8.1",
